@@ -1,0 +1,80 @@
+{
+    "name": "@sumontech/ChinaExpress",
+    "author": "Sumontech sumon4skf@gmail.com",
+    "private": true,
+    "version": "v1.2.5",
+    "license": "MIT",
+    "homepage": "https://www.chinaexpress.com.bd",
+    "scripts": {
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.0.0",
+        "axios": "^0.19",
+        "babel-core": "^7.0.0-bridge.0",
+        "babel-jest": "^24.8.0",
+        "browser-sync": "^2.27.10",
+        "browser-sync-webpack-plugin": "^2.3.0",
+        "cross-env": "^7.0.3",
+        "cross-var": "^1.1.0",
+        "jest": "^24.8.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^6.0.49",
+        "lodash": "^4.17.13",
+        "pace": "github:HubSpot/pace#v1.0.2",
+        "perfect-scrollbar": "^1.4.0",
+        "popper.js": "^1.12",
+        "query-string": "^7.1.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "resolve-url-loader": "^3.1.1",
+        "sass": "^1.45.2",
+        "sass-loader": "^8.0.0",
+        "sweetalert2": "^9.3.5",
+        "vue-template-compiler": "^2.6.14",
+        "webpack-cli": "^4.9.2"
+    },
+    "browserslist": {
+        "development": "last 1 version",
+        "production": ">2%, Firefox ESR"
+    },
+    "jest": {
+        "testURL": "http://127.0.0.1:8000",
+        "roots": [
+            "<rootDir>/tests/Javascript/"
+        ],
+        "moduleNameMapper": {
+            "^@/(.*)$": "<rootDir>/resources/js/$1"
+        },
+        "moduleFileExtensions": [
+            "js"
+        ],
+        "transform": {
+            "^.+\\.js$": "babel-jest"
+        }
+    },
+    "engines": {
+        "node": ">=6.0.0"
+    },
+    "dependencies": {
+        "@ant-design/icons": "^4.7.0",
+        "antd": "^4.21.7",
+        "bootstrap": "^4.6.1",
+        "html-react-parser": "^1.4.5",
+        "moment": "^2.29.4",
+        "qs": "^6.11.0",
+        "react-paginate": "^8.1.0",
+        "react-player": "^2.9.0",
+        "react-query": "^3.34.16",
+        "react-responsive": "^9.0.0-beta.6",
+        "react-router-dom": "^5.3.0",
+        "react-social-login": "^3.4.15",
+        "react-toastify": "^8.2.0",
+        "sweetalert": "^2.1.2",
+        "swr": "^1.1.2"
+    }
+}

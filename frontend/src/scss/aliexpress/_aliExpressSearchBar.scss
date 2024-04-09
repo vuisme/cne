@@ -1,0 +1,103 @@
+.aliExpressSearchBar {
+  position: relative;
+  background-color: #f6f6f6;
+  box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.1);
+  border-radius: 6px;
+  border: none;
+
+  .aliExpressLogo {
+    padding: 0 1.5rem;
+    margin: 0 auto;
+  }
+
+  .aliSearchFormCol {
+    .aliExpressText {
+      margin: 0 auto;
+      padding: 1rem 12rem 0;
+      background: #ff1616;
+      border-top-right-radius: 4px;
+      width: 100%;
+    }
+  }
+}
+
+
+.ali_express_search_form {
+  padding: 0 4rem 1rem;
+  background: #ff1616;
+  border-bottom-right-radius: 4px;
+}
+
+.form-control {
+  height: 40px;
+  padding: 10px 9px 10px 15px;
+  border: 1px solid #ef2c34;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+
+.btn-search {
+  background-color: #751f8a;
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: #751f8a;
+  }
+
+  &:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+}
+
+.controlAliSearchForm {
+  background-color: #ff1616;
+  padding-top: 10px;
+  border-radius: 4px;
+
+  .ali_express_search_form {
+    padding: 0.5rem 0.5rem 1rem;
+  }
+}
+
+.seller_page_title {
+  h1 {
+    color: #751f8a;
+    font-weight: 700;
+  }
+}
+
+
+/* -------------------------------------------------
+  min-width: 768
+---------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+  .controlAliSearchForm {
+    width: 70%;
+    margin: 0 auto;
+
+    img {
+      margin: 0 auto;
+      width: 50%;
+    }
+
+    .ali_express_search_form {
+      padding: 0.5rem 1rem 1rem;
+    }
+  }
+}
+
+
+/* -------------------------------------------------
+  max-width: 480px
+---------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+  .seller_page_title {
+    h1 {
+      font-size: 1.4rem;
+      margin: 0;
+    }
+  }
+}

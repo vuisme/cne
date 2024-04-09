@@ -1,0 +1,76 @@
+{
+  "name": "chinaexpress_frontend",
+  "version": "v1.8.1",
+  "private": true,
+  "homepage": "https://www.chinaexpress.com.bd",
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@craco/craco": "^6.4.5",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.22.2",
+    "axios": "^0.26.1",    "bootstrap": "4.6.*",
+    "craco-less": "^2.0.0",
+    "html-react-parser": "^1.4.9",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "perfect-scrollbar": "^1.5.5",
+    "popper.js": "^1.16.1",
+    "query-string": "^7.1.1",
+    "react": "^17.0.2",
+    "react-datetime": "^3.1.1",
+    "react-dom": "^17.0.2",
+    "react-facebook-pixel": "^1.0.4",
+    "react-ga": "^3.3.0",
+    "react-helmet": "^6.1.0",
+    "react-inner-image-zoom": "^3.0.0",
+    "react-lazyload": "^3.2.0",
+    "react-loading-skeleton": "^3.0.3",
+    "react-owl-carousel": "^2.3.3",
+    "react-paginate": "^8.1.2",
+    "react-phone-number-input": "^3.1.47",
+    "react-player": "^2.10.0",
+    "react-query": "^3.34.17",
+    "react-responsive": "^9.0.0-beta.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "5.0.0",
+    "react-sticky-el": "^2.0.9",
+    "react-toastify": "^9.0.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "sweetalert2": "^11.4.8",
+    "swiper": "^8.3.0",
+    "tiny-slider-react": "^0.5.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!antd|@ant-design|rc-.+?|@babel/runtime).+(js|jsx)$"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

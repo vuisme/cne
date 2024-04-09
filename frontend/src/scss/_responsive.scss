@@ -1,0 +1,188 @@
+/* -------------------------------------------------
+  (min-width: 1680px)
+---------------------------------------------------*/
+@media only screen and (min-width: 1680px) {
+}
+
+/* -------------------------------------------------
+  (max-width: 1250px)
+---------------------------------------------------*/
+@media only screen and (max-width: 1250px) {
+}
+
+/* -------------------------------------------------
+  (min-width: 991px) and (max-width: 1199px)
+---------------------------------------------------*/
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+}
+
+/* -------------------------------------------------
+  (min-width: 767px) and (max-width: 1199px)
+---------------------------------------------------*/
+@media only screen and (min-width: 767px) and (max-width: 1199px) {
+}
+
+/* -------------------------------------------------
+  (min-width: 767px) and (max-width: 991px)
+---------------------------------------------------*/
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+}
+
+/* -------------------------------------------------
+  max-width: 1199px
+---------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+}
+
+/* -------------------------------------------------
+  min-width: 992px
+---------------------------------------------------*/
+@media only screen and (min-width: 992px) {
+}
+
+/* -------------------------------------------------
+  max-width: 991px
+---------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+  .h1,
+  h1 {
+    font-size: 2rem;
+  }
+  .h2,
+  h2 {
+    font-size: 1.5rem;
+  }
+  .h3,
+  h3 {
+    font-size: 1.3rem;
+  }
+  .h4,
+  h4 {
+    font-size: 1.1rem;
+  }
+  .h5,
+  h5 {
+    font-size: 1rem;
+  }
+  .h6,
+  h6 {
+    font-size: 0.9rem;
+  }
+}
+
+/* -------------------------------------------------
+  min-width: 768px
+---------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+  .intro-slide,
+  .intro-section .col-lg-5cols > .banner.banner-overlay {
+    min-height: 442px;
+  }
+  .product-image {
+    height: 210px;
+    margin: 0 auto;
+  }
+
+  .deal-section .title {
+    margin: 0;
+  }
+}
+
+/* -------------------------------------------------
+  max-width: 767px
+---------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+  .intro-slide,
+  .intro-section .col-lg-5cols > .banner.banner-overlay {
+    min-height: 350px;
+  }
+  .product-image {
+    height: 220px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .single-product-title {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    color: #751f8a;
+  }
+}
+
+/* -------------------------------------------------
+  max-width: 767px
+---------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+  .intro-slide,
+  .intro-section .col-lg-5cols > .banner.banner-overlay {
+    min-height: 170px;
+  }
+  .product-image {
+    height: 170px;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .product-details-action .btn-cart {
+    text-align: center;
+  }
+
+  .product-sidebar {
+    background-color: transparent;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+
+  .aliExpressSearchBar .aliSearchFormCol {
+    .aliExpressText {
+      padding: 0.5rem 1rem 0;
+      min-height: auto;
+      border-top-left-radius: 4px;
+    }
+
+    .ali_express_search_form {
+      padding: 0 1rem 0.8rem;
+      border-bottom-left-radius: 4px;
+    }
+  }
+}
+
+/* -------------------------------------------------
+  max-width: 575px
+---------------------------------------------------*/
+@media only screen and (max-width: 575px) {
+  .mobile_header .logo img {
+    height: 54px;
+  }
+
+  .intro-slide,
+  .intro-section .col-lg-5cols > .banner.banner-overlay {
+    min-height: 200px;
+  }
+  .product-image {
+    height: 200px;
+  }
+}
+
+/* -------------------------------------------------
+  max-width: 480px
+---------------------------------------------------*/
+@media only screen and (max-width: 480px) {
+  .product-image {
+    height: 190px;
+  }
+}
+
+/* -------------------------------------------------
+  max-width: 380px
+---------------------------------------------------*/
+@media only screen and (max-width: 380px) {
+  .product-image {
+    height: 180px;
+  }
+}

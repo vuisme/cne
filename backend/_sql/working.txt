@@ -1,0 +1,72 @@
+
+
+# order item table
+
+ALTER TABLE `mybdstore_web`.`order_item`
+ADD COLUMN `invoice_no` VARCHAR(45) NULL AFTER `due_payment`;
+
+
+
+ALTER TABLE `chinaexpress_web`.`orders` 
+ADD COLUMN `bkash_trx_id` VARCHAR(45) NULL AFTER `bkash_payment_id`,
+ADD COLUMN `bkash_refund_trx_id` VARCHAR(45) NULL AFTER `bkash_trx_id`;
+
+
+
+ALTER TABLE `chinaexpress_web`.`products` 
+ADD COLUMN `recent_view_token` VARCHAR(191) NULL AFTER `user_id`;
+
+
+ALTER TABLE `chinaexpress_web`.`users` 
+ADD COLUMN `payment_token` VARCHAR(191) NULL AFTER `api_token`;
+
+ALTER TABLE `chinaexpress_web`.`cart_items` 
+ADD COLUMN `is_popup_shown` TINYINT(1) NULL AFTER `status`;
+
+
+ALTER TABLE `wishlists` 
+ADD COLUMN `provider_type` VARCHAR(191) NULL AFTER `total_sold`;
+
+ALTER TABLE `cart_items` 
+ADD COLUMN `shipping_type` VARCHAR(191) NULL AFTER `status`,
+ADD COLUMN `IsCart` TINYINT(1) NULL AFTER `shipping_type`,
+ADD COLUMN `is_express_popup_shown` TINYINT(1) NULL AFTER `IsCart`;
+
+
+
+ALTER TABLE `chinaexpress_web`.`order_items` 
+ADD COLUMN `shipping_type` VARCHAR(191) NULL AFTER `shipping_from`;
+
+
+
+ALTER TABLE `chinaexpress_web`.`order_items` 
+ADD COLUMN `source_order_number` VARCHAR(191) NULL AFTER `status`;
+ADD COLUMN `lost_in_transit` INT(10) NULL AFTER `out_of_stock`,
+ADD COLUMN `customer_tax` INT(10) NULL AFTER `lost_in_transit`,
+ADD COLUMN `purchases_at` TIMESTAMP NULL AFTER `invoice_no`,
+ADD COLUMN `comment1` TEXT NULL AFTER `purchases_at`,
+ADD COLUMN `comment2` TEXT NULL AFTER `comment1`;
+
+ALTER TABLE `chinaexpress_web`.`order_items` 
+ADD COLUMN `source_order_number` VARCHAR(191) NULL AFTER `status`;
+
+
+ALTER TABLE `chinaexpress_web`.`order_items` 
+ADD COLUMN `actual_weight` VARCHAR(11) NULL AFTER `weight`;
+
+
+ALTER TABLE `chinaexpress_web`.`order_items` 
+ADD COLUMN `refunded_method` VARCHAR(45) NULL AFTER `refunded`;
+
+
+
+ALTER TABLE `chinaexpress_web`.`order_items` 
+ADD COLUMN `refund_payment_method` VARCHAR(191) NULL AFTER `refunded`;
+
+
+
+
+
+
+
+

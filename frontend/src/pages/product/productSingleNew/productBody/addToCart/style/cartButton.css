@@ -1,0 +1,13 @@
+
+.stick_add_to_cart_nav{
+    z-index: 9999;
+    box-shadow: none;
+}
+
+.stick_add_to_cart_nav .col{
+    padding: 0;
+}
+.stick_add_to_cart_nav .col a{
+    padding:  12px 0;
+    border-radius: 0;
+}

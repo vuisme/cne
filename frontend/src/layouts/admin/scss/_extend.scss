@@ -1,0 +1,33 @@
+.ant-layout-sider-children {
+  .logo {
+    background: #fff;
+    margin: 0;
+    padding: 10px 0;
+    img {
+      height: 46px;
+      margin: 0 auto;
+    }
+  }
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.ant-card {
+  margin-bottom: 30px;
+}
+
+.ant-statistic-content-prefix {
+  font-family: "Times New Roman", Times, serif;
+}

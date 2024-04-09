@@ -1,0 +1,60 @@
+.tns-outer {
+  position: relative;
+  .tns-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 0;
+    margin-top: 15px;
+
+    button {
+      display: inline-block;
+      zoom: 1;
+      background: 0 0;
+      padding: 0 !important;
+      font: inherit;
+      width: 10px;
+      height: 10px;
+      border-radius: 30px;
+      border: 1px solid var(--theme-color);
+      cursor: pointer;
+      margin: 3px;
+      opacity: 1;
+      transition: all 0.3s ease-in-out;
+
+      &.tns-nav-active {
+        width: 30px;
+        background-color: var(--theme-color);
+      }
+
+      &:hover {
+        background-color: var(--theme-color);
+      }
+    }
+  }
+  .tns-controls {
+    button {
+      position: absolute;
+      top: 46%;
+      transform: translateY(-50%);
+      border-radius: 4px;
+      width: 42px;
+      height: 42px;
+      line-height: 1.5;
+      background-color: rgba(255, 255, 255, 0.65);
+      color: #1a1a1a;
+      transition: all 0.3s ease-in-out;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.65);
+      padding: 0;
+      &[data-controls="prev"] {
+        left: 10px;
+      }
+      &[data-controls="next"] {
+        right: 10px;
+      }
+      &:hover {
+        background-color: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+}

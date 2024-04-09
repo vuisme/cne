@@ -1,0 +1,51 @@
+.swal-footer {
+  text-align: center;
+  margin-top: 12px;
+  padding: 12px 15px;
+  border-radius: inherit;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+  .swal-button {
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px 25px;
+    font-weight: 500;
+  }
+}
+
+.swal-title {
+  font-weight: 500;
+  padding: 0;
+  font-size: 20px;
+  color: #1a1a1a;
+}
+
+.swal-text {
+  color: #1a1a1a;
+}
+
+.swal-button:not([disabled]):hover {
+  background-color: #eb1d27;
+}
+
+.swal-button {
+  background-color: #eb1d27;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &.swal-button--cancel {
+    color: #2a2a2a;
+    background-color: #efefef;
+  }
+}
+
+.swal-button:not([disabled]):hover {
+  background-color: #eb1d27;
+}
+
+.swal-button--cancel:not([disabled]):hover {
+  background-color: #e3e3e3;
+}
